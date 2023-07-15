@@ -69,9 +69,9 @@ Age_map = 1 if Age == '>50' else 0
 Grade=st.sidebar.selectbox('Grade', ['Grade I','Grade II','Grade III','Grade IV'])
 Grade_map = {'Grade I':0,'Grade II':1,'Grade III':2,'Grade IV':3}
 T_stage = st.sidebar.selectbox('T_stage',["T1","T2","T3","T4"])# 选择聚类中心
-T_stage_map = {'T1':1,'T2':2,'T3':3,'T4':4}
+T_stage_map = {'T1':0,'T2':1,'T3':2,'T4':3}
 N_stage=st.sidebar.selectbox('N_stage',['N0','N1','N2'])
-N_stage_map = {'N0':1,'N1':2,'N2':3}
+N_stage_map = {'N0':0,'N1':1,'N2':2}
 CEA=st.sidebar.selectbox('CEA', ['Negative','Borderline','Positive','Unknown'])
 CEA_map = {'Negative':0,'Borderline':1,'Positive':2,'Unknown':3}
 Perineural_Invasion=st.sidebar.selectbox('Perineural_Invasion', ['No','Yes','Unknown'])
